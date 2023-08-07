@@ -5,8 +5,28 @@
 
 version: 2
 updates:
-  - package-ecosystem: "nuget" # See documentation for possible values
+  - package-ecosystem: "nuget" 
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-     open-pull-requests-limit: 20
+    open-pull-requests-limit: 50
+    ignore:
+      # Ignore updates to packages that start with 'Wildcards'
+      - dependency-name: "Microsoft.FeatureManagement.AspNetCore*"
+      # Ignore some updates to the package
+      - dependency-name: "Microsoft.VisualStudio.Web.CodeGeneration.Design"
+        versions: ["7.x"]
+      - dependency-name: "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+        versions: ["7.x"]
+      - dependency-name: "Microsoft.AspNetCore.Mvc.Testing"
+        versions: ["7.x"]
+      # For all packages, ignore all patch updates
+      #- dependency-name: "*"
+      #  update-types: ["version-update:semver-patch"]
+  
+  # Configuration for npm
+  - package-ecosystem: "npm" 
+    directory: "/DigitalLearningSolutions.Web/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 50

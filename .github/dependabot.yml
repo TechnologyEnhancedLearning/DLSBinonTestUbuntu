@@ -25,9 +25,9 @@ updates:
       # For all packages, ignore all patch updates
       #- dependency-name: "*"
       #  update-types: ["version-update:semver-patch"]
-    labels:
-      - "nuget update dependobot"
-      - "dependencies"
+    #labels:
+      #- "nuget update dependobot"
+      #- "dependencies"
   
   # Configuration for npm
   - package-ecosystem: "npm" 

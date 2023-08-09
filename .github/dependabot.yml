@@ -21,7 +21,7 @@ updates:
       - dependency-name: "Microsoft.AspNetCore.Mvc.Testing"
         versions: ["7.*"]
       - dependency-name: "Selenium.WebDriver.ChromeDriver"
-        versions: ">=114.0.5735.1600" # Recommended version
+        versions: ">=113.0.5672.2400⁠" # Recommended version
       # For all packages, ignore all patch updates
       #- dependency-name: "*"
       #  update-types: ["version-update:semver-patch"]

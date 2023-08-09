@@ -29,4 +29,8 @@ updates:
     directory: "/DigitalLearningSolutions.Web/" # Location of package manifests
     schedule:
       interval: "daily"
+    target-branch: "upgraded_master"
+    # Labels on pull requests for version updates only
+    labels:
+      - "npm dependencies binon"
     open-pull-requests-limit: 50

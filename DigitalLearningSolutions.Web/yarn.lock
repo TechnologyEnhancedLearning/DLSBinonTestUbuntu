@@ -4329,10 +4329,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nhsuk-frontend@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/nhsuk-frontend/-/nhsuk-frontend-6.1.0.tgz#6d9d154167faaf15e923cf2ace19b737eba880a5"
-  integrity sha512-iUqPP9TM29ycbaqoNlINp7jVzPblrHVUIArQlpL4TRtu1iYDkwuXPMkZWps5ORN+DOIR3Xlt2XgeNoO26OWjeQ==
+nhsuk-frontend@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/nhsuk-frontend/-/nhsuk-frontend-8.0.2.tgz#0e9f9835b399abb45aa622a0f791b32a502b02e9"
+  integrity sha512-ZRKESqJMyWCyAlFyVPGpiNJMEo+vrq37ELkUqP4nNA7QV/8jB5i/m79ljIIXM6NUgStLSdQ3BHeR5yFEAC1qug==
 
 nice-try@^1.0.4:
   version "1.0.5"
